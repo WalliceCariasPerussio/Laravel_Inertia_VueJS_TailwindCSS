@@ -41,6 +41,11 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+
+// if ($app->environment() !== 'production') {
+//     $app->register(\LaravelLang\Publisher\ServiceProvider::class);
+// }
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
