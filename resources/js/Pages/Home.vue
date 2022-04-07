@@ -1,5 +1,5 @@
 <template>
-    <Head title="Home" />
+    <Head :title="__('Home')" />
     <InitialLayout>
         <div>
             <h2>{{message}}</h2>
@@ -10,7 +10,7 @@
 
 
 <script>
-    import { Link,Head } from '@inertiajs/inertia-vue3'
+    import { Link, Head } from '@inertiajs/inertia-vue3'
     import InitialLayout from './Layouts/InitialLayout'
 
     export default {

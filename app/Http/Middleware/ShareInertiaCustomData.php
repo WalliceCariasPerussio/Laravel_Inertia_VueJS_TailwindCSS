@@ -17,10 +17,17 @@ class ShareInertiaCustomData
      */
     public function handle(Request $request, Closure $next)
     {
+        foreach (config('app.available_locales') as $key => $value) {
+            if($value == app()->getLocale()){
+                $localeName = $key;
+            }
+        }
+
         Inertia::share([
                 'available_locales' => config('app.available_locales'),
                 'lang' => app('translator')->get('*'),
                 'getLocale' => app()->getLocale(),
+                'getLocaleName' => $localeName,
         ]);
 
         return $next($request);

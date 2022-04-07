@@ -1,5 +1,5 @@
 <template>
-    <Head title="About" />
+    <Head :title="__('About')" />
     <!-- This example requires Tailwind CSS v2.0+ -->
     <InitialLayout>
         <div>
