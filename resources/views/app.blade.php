@@ -8,8 +8,10 @@
     {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
-    <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
-    <script src="{{ mix('/js/app.js') }}" defer></script>
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
+    <script src="{{ asset('/js/app.js') }}" defer></script>
+    {{-- <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
+    <script src="{{ mix('/js/app.js') }}" defer></script> --}}
 
     @inertiaHead
     @routes
