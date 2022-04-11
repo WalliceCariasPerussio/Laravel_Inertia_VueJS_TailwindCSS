@@ -1,12 +1,12 @@
 ## Sobre o Projeto
 
-    - Projeto Pessoal para acelerar o desenvolvimento de aplicações web utilisando as tecnologias:
+   Projeto Pessoal para acelerar o desenvolvimento de aplicações web utilisando as tecnologias:
         - [Laravel](https://laravel.com/)
         - [Vue.js](https://vuejs.org/)
         - [TailwindCSS](https://tailwindcss.com/)
         - [Inertia](https://inertiajs.com/)
 
-    - Detalhes do Projeto:
+   Detalhes do Projeto:
         - Multiplas linguagens
         - SPA (Single Page Application) 
         - Utilizando o [Vuejs] com o [Inertia] para renderizar a aplicação.
