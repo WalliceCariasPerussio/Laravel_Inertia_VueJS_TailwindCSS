@@ -6,7 +6,7 @@
         - [TailwindCSS](https://tailwindcss.com/)
         - [Inertia](https://inertiajs.com/)
 
-   Detalhes do Projeto:
+## Detalhes do Projeto:
         - Multiplas linguagens
         - SPA (Single Page Application) 
         - Utilizando o [Vuejs] com o [Inertia] para renderizar a aplicação.
