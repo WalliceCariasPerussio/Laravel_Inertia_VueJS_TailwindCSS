@@ -1,4 +1,4 @@
-Sobre o Projeto
+## Sobre o Projeto
 
     - Projeto Pessoal para acelerar o desenvolvimento de aplicações web utilisando as tecnologias:
         - [Laravel](https://laravel.com/)
