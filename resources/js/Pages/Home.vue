@@ -8,7 +8,6 @@
 
 </template>
 
-
 <script>
     import { Link, Head } from '@inertiajs/inertia-vue3'
     import InitialLayout from './Layouts/InitialLayout'
